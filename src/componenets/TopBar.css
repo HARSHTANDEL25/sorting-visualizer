@@ -1,0 +1,39 @@
+.nav-container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem 4rem;
+    background-color: rgb(145, 145, 243);
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+}
+
+.nav-heading{
+    margin-left: 1rem;
+    margin-right: 4rem;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.nav-filters{
+    display: flex;
+    height: 100%;
+    background-color: rgb(245, 137, 137);
+    margin-right: 1rem;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.nav-input{
+
+}
+
+.nav-input-value{
+
+}
+
+.nav-btn{
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,56 @@
+.bar-container{
+    display: flex;
+    padding: 4rem;
+    padding-bottom: 0;
+    /* margin: 0 auto; */
+    /* margin-left: 100px; */
+    padding-top: 6rem;
+    background-color: rgb(235, 233, 233);
+    align-items: flex-end;
+    justify-content: center;
+    height: 79%;
+    padding-bottom: 4rem;
+}
+
+.array-bar{
+    position: relative;
+    width: 30px;
+    height: 10rem;
+    display: inline-block;
+    background-color: black;
+    margin: 0 6px;
+}
+
+.array-bar.large{
+    margin: 0 3px;
+}
+
+.array-values{
+    display: flex;
+    color: rgb(18, 18, 18);
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    left: 5px;
+    bottom: -1.5rem;
+}
+.array-values.x-large{
+    display: hidden;
+    opacity: 0;
+}
+
+.array-bar.compared{
+    background-color: rgb(228, 193, 95);
+}
+
+.array-bar.sorted{
+    background-color: rgb(46, 107, 46);
+}
+
+.array-bar.swapping{
+    background-color: rgb(206, 95, 233);
+}
+
+.array-bar.overwrite{
+    background-color: rgb(175, 42, 42);
+}

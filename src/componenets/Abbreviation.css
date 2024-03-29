@@ -1,0 +1,41 @@
+.abb-container{
+    background-color: rgb(235, 233, 233);
+    display: flex;
+    gap: 6rem;
+    justify-content: right;
+    padding-right: 5rem;
+    padding-top: 1.5rem;
+    height: 8%;
+    /* margin-top: 1.5rem; */
+    opacity: 0;
+    transition: ease-in-out all 600ms;
+}
+
+.abb-container.active{
+    opacity: 1;
+}
+
+.abb-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+
+.abb-box-sorted{
+    background-color: rgb(46, 107, 46);
+    height: 14px;
+    width: 14px;
+}
+
+.abb-box-comparing{
+    background-color: rgb(228, 193, 95);
+    height: 14px;
+    width: 14px;
+}
+
+.abb-box-swapping{
+    background-color: rgb(206, 95, 233);
+    height: 14px;
+    width: 14px;
+}

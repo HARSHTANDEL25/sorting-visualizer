@@ -1,0 +1,49 @@
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(220, 220, 220);
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.btn{
+    /* border: 1px solid rgb(252, 252, 252); */
+    width: fit-content;
+    position: relative;
+    color: white;
+    background-color: rgba(238, 43, 43, 0.952);
+    border: solid 2px rgba(238, 43, 43, 0.952);
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    padding: 2.5px 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s;
+}
+.btn.active{
+    background-color: white;
+    color: black;
+}
+
+.btn::before{
+    background-color: #fff;
+    content: "";
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+}
+
+.btn:hover::before{
+    transform: scalex(1);
+}
+.btn:hover {
+    color: black;
+}
